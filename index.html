@@ -1,69 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fender Star Guitar Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <header id="header">
-      <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Fender_guitars_logo.svg/2560px-Fender_guitars_logo.svg.png" alt="Fender Logo"/>
-      <nav id="nav-bar">
-        <a class="nav-link" href="#electrics">Electrics</a>
-        <a class="nav-link" href="#acoustics">Acoustics</a>
-        <a class="nav-link" href="#accessories">Accessories</a>
-      </nav>
-    </header>
-    <main>
-      <section id="video-container">
-        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/2yXm_3dEBNA?si=JG9Mkrg14zd28ibA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      </section>
-      <section id="electrics">
-        <h2>Electric Guitars</h2>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fender Star Guitar Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header id="header">
+    <img id="header-img"
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Fender_guitars_logo.svg/2560px-Fender_guitars_logo.svg.png"
+      alt="Fender Logo" />
+    <nav id="nav-bar">
+      <a class="nav-link" href="#electrics">Electrics</a>
+      <a class="nav-link" href="#acoustics">Acoustics</a>
+      <a class="nav-link" href="#accessories">Accessories</a>
+    </nav>
+  </header>
+  <main>
+    <section id="video-container">
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/2yXm_3dEBNA?si=JG9Mkrg14zd28ibA"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </section>
+    <section id="electrics">
+      <h2>Electric Guitars</h2>
+      <div class="group-container">
         <div class="guitar-container">
-          <h4>VINTERA® II '70S STRATOCASTER®</h4>
-          <p>Revive the timeless sound of the '70s with the Vintera® II '70s Stratocaster® and experience the iconic looks, inspiring feel, and incomparable tone that only a Fender can deliver.</p>
-          <img src="https://images.pexels.com/photos/2156327/pexels-photo-2156327.jpeg?auto=compress&cs=tinysrgb&w=1600" class="guitar-image"/>
+          <h4 class="guitar-title">VINTERA® II '70S STRATOCASTER®</h4>
+          <p class="description">Revive the timeless sound of the '70s with the Vintera® II '70s Stratocaster® and
+            experience the iconic
+            looks, inspiring feel, and incomparable tone that only a Fender can deliver.</p>
+          <div class="image-container">
+            <img
+              src="https://images.pexels.com/photos/2156327/pexels-photo-2156327.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              class="guitar-image" />
+          </div>
+          <span> Price: €250</span>
         </div>
         <div class="guitar-container">
-          <h4>AMERICAN VINTAGE II 1951 TELECASTER®</h4>
-          <p>The Fender® American Vintage II series presents a remarkably accurate take on the revolutionary designs that altered the course of musical history. Built with period-accurate bodies, necks and hardware, premium finishes and meticulously voiced, year-specific pickups, each instrument captures the essence of authentic Fender craftsmanship and tone.</p>
-          <img src="https://images.pexels.com/photos/7334396/pexels-photo-7334396.jpeg?auto=compress&cs=tinysrgb&w=1600" class="guitar-image"/>
+          <h4 class="guitar-title">AMERICAN VINTAGE II 1951 TELECASTER®</h4>
+          <p class="description">The Fender® American Vintage II series presents a remarkably accurate take on the
+            revolutionary designs that altered the course of musical history. </p>
+          <div class="image-container">
+            <img
+              src="https://images.pexels.com/photos/7334396/pexels-photo-7334396.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              class="guitar-image" />
+          </div>
+          <span> Price: €100</span>
         </div>
-      </section>
-      <section id="acoustics">
-        <h2>Acoustic Guitars</h2>
+      </div>
+    </section>
+    <section id="acoustics">
+      <h2>Acoustic Guitars</h2>
+      <div class="group-container">
         <div class="guitar-container">
-          <h4>REDONDO PLAYER</h4>
-          <p>Inspired by the iconic designs of Fender electric guitars, California Player acoustics evoke the west coast spirit of adventure and freedom, inviting musicians to explore their individual creativity and disrupt the status quo.</p>
-          <img src="https://images.pexels.com/photos/3428498/pexels-photo-3428498.jpeg?auto=compress&cs=tinysrgb&w=1600" class="guitar-image"/>
+          <h4 class="guitar-title">REDONDO PLAYER</h4>
+          <p class="description">Inspired by the iconic designs of Fender electric guitars, California Player acoustics
+            evoke the west coast
+            spirit of adventure and freedom, inviting musicians to explore their individual creativity and disrupt the
+            status quo.</p>
+          <div class="image-container">
+            <img
+              src="https://images.pexels.com/photos/3428498/pexels-photo-3428498.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              class="guitar-image" />
+          </div>
+          <span> Price: €450</span>
         </div>
         <div class="guitar-container">
-          <h4>HIGHWAY SERIES™ DREADNOUGHT</h4>
-          <p>At the intersection of time-honored acoustic guitar craft and relentless innovation, Highway Series™ instruments transport players to a new era of performance in a way that only Fender® can. Merging a thin, ergonomic form factor and a groundbreaking Fishman® Fluence® Acoustic Pickup system designed around a revolutionary bracing structure, Highway Series guitars exhibit the tactile charm and unplugged resonance of acoustics twice their size, adding unmatched on-lap comfort for a truly unique acoustic experience.</p>
-          <img src="https://images.pexels.com/photos/4159660/pexels-photo-4159660.jpeg?auto=compress&cs=tinysrgb&w=1600" class="guitar-image"/>
+          <h4 class="guitar-title">HIGHWAY SERIES™ DREADNOUGHT</h4>
+          <p class="description">At the intersection of time-honored acoustic guitar craft and relentless innovation,
+            Highway Series™
+            instruments transport players to a new era of performance in a way that only Fender® can. </p>
+          <div class="image-container">
+            <img
+              src="https://images.pexels.com/photos/4159660/pexels-photo-4159660.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              class="guitar-image" />
+          </div>
+          <span> Price: €700</span>
         </div>
-      </section>
-      <section id="accessories">
-        <h2>Accessories</h2>
+      </div>
+    </section>
+    <section id="accessories">
+      <h2>Accessories</h2>
+      <div class="group-container">
         <div class="accessory-container">
-          <h4>ADJUSTABLE GUITAR STAND</h4>
-          <p>Fender's adjustable guitar stand conveniently showcases your acoustic, electric or bass guitar. Height-adjustable neck yoke comfortably accepts various instrument sizes, lower support swivels to accommodate standard and offset body styles, metal construction is durable enough for road use, and padded yokes offer security for your instrument.</p>
-          <img src="https://images.pexels.com/photos/3714523/pexels-photo-3714523.jpeg?auto=compress&cs=tinysrgb&w=1600" class="accessory-image"/>
+          <h4 class="accessory-title">ADJUSTABLE GUITAR STAND</h4>
+          <p class="description">Fender's adjustable guitar stand conveniently showcases your acoustic, electric or bass
+            guitar.
+            Height-adjustable neck yoke comfortably accepts various instrument sizes, lower support swivels to
+            accommodate
+            standard and offset body styles, metal construction is durable enough for road use.</p>
+          <div class="image-container">
+            <img
+              src="https://images.pexels.com/photos/3714523/pexels-photo-3714523.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              class="accessory-image" />
+          </div>
+          <span> Price: €50</span>
         </div>
         <div class="accessory-container">
-          <h4>OFFSET PICKS</h4>
-          <p>The most versatile pick EVER! Elevate your playing experience with the Fender Offset Pick - the game-changing pick you never knew you needed. Crafted from a durable polycarbonate material, the unique offset shape allows you to maximize your grip for a precise, bright attack. </p>
-          <img src="https://images.pexels.com/photos/3801997/pexels-photo-3801997.jpeg?auto=compress&cs=tinysrgb&w=1600" class="accessory-image"/>
+          <h4 class="accessory-title">OFFSET PICKS</h4>
+          <p class="description">The most versatile pick EVER! Elevate your playing experience with the Fender Offset
+            Pick
+            - the game-changing
+            pick you never knew you needed. Crafted from a durable polycarbonate material, the unique offset shape
+            allows
+            you to maximize your grip for a precise, bright attack. </p>
+          <div class="image-container">
+            <img
+              src="https://images.pexels.com/photos/3801997/pexels-photo-3801997.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              class="accessory-image" />
+          </div>
+          <span> Price: €25</span>
         </div>
-      </section>
-      <section>
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
-          <input name="email" id="email" type="email" placeholder="Enter your email address" required/>
-          <input  id="submit" type="submit" value="Go!"/>
-        </form>
-      </section>
-    </main>
-  </body>
+      </div>
+    </section>
+    <section>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input name="email" id="email" type="email" placeholder="Enter your email address" required />
+        <input id="submit" type="submit" value="Go!" />
+      </form>
+    </section>
+  </main>
+</body>
+
 </html>
