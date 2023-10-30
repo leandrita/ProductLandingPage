@@ -1,0 +1,86 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+header{
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 5rem;
+  margin: 0;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header-img{
+  width: 8rem;
+}
+
+#nav-bar{
+  position: fixed;
+  right: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 5rem;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-link:hover{
+  color: red;
+}
+
+#video-container{
+  padding: 8rem 2rem 2rem 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+section{
+  padding: 3rem 2rem 2rem 2rem;
+}
+
+h2{
+  font-size: 2rem;
+  text-align: center;
+  padding: 1.5rem 1rem 0 1rem;
+}
+
+.guitar-container, .accessory-container{
+  font-weight: 400;
+  text-align: center;
+  padding: 0.5rem
+}
+
+.guitar-image, .accessory-image{
+  height: 25rem;
+}
+
+form{
+  text-align: center;
+}
+
+#email{
+  width: 15rem;
+  text-align: center;
+}
+
+#submit{
+  background-color: green;
+  border: 2px solid green;
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
+}
+
